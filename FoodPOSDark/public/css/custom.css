@@ -1,0 +1,36 @@
+:root {
+    --primaryDark: #252836;
+    --secondaryDark: #1F1D2B;
+    --primaryPink: #EA7C69;
+    --textLight: #ABBBC2;
+    --formBG: #2D303E;
+}
+
+body {
+    background-color: var(--primaryDark);
+}
+
+.sidebar,
+.cartbar {
+    background-color: var(--secondaryDark);
+    color: var(--primaryPink);
+    height: 100vh;
+}
+
+.header {
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0px;
+}
+
+.date {
+    color: var(--textLight);
+}
+
+.form-control,
+.input-group-text {
+    background-color: var(--formBG);
+    border: #393C49;
+    color: #ffff;
+}
