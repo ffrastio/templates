@@ -31,6 +31,35 @@ body {
 .form-control,
 .input-group-text {
     background-color: var(--formBG);
-    border: #393C49;
+    border: none;
     color: #ffff;
+}
+
+input[type=text],
+input[type=text]:focus {
+    color: #ffff;
+    background-color: var(--formBG);
+}
+
+.logo {
+    background-color: #EA9769;
+    border-radius: 10%;
+    opacity: 0.8;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+}
+
+path {
+    fill: #EA7C69;
+}
+
+.active {
+    background-color: var(--primaryDark);
+}
+
+a .active {
+    background-color: #EA7C69;
 }
